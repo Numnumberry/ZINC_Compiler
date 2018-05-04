@@ -1,0 +1,13 @@
+program
+	var FLAG : integer;
+	var ANSWER : integer;
+	var ALPHA : integer;
+	var GAMMA : integer;
+	var C3P0 : integer;
+	var R2D2 : integer;
+begin
+	if FLAG then
+		ANSWER := ALPHA + 2 * GAMMA div (C3P0 - R2D2);
+	endif;
+	writeInt ANSWER;
+end
