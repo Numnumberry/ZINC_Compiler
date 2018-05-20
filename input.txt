@@ -1,4 +1,5 @@
 program
+	var MORE : integer;
 	var FLAG : integer;
 	var ANSWER : integer;
 	var ALPHA : integer;
